@@ -1,0 +1,17 @@
+import java.util.Scanner;
+Public class main
+{
+Public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter radius:");
+float radius=sc.nextFloat();
+double circumference=circumference(radius);
+System.out.println("circumference of circle is:" +circumference);
+sc.close();
+}
+public static double circumference(float radius)
+{
+return 2*Math.pi*radius;
+}
+}
